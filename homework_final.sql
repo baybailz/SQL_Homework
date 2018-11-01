@@ -59,6 +59,7 @@ from actor
 group by last_name
 having last_name_two  >  2;
 -- 4c: 
+update actor 
 set first_name = 'HARPO'
 where first_name = 'GROUCHO' 
     and last_name = 'WILLIAMS';
